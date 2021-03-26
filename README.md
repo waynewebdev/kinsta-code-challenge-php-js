@@ -1,1 +1,2 @@
-# kinsta-code-challenge-php-js
+# Pulling data from json file using PHP & JavaScript
+I started by pulling the data in from the json file using PHP and setting it to a variable. I tested this on a child-theme which is why I used get_stylesheet_directory_uri() for the path of the json file. I then decoded the json and set it to a variable of $countries so that it would be easy to recognize and use. I created a simple unordered list to display the values of the second item in the json object. Next, I simply used PHP to connect the json data into a JS variable so that I could display them using JS. To keep things consistent, I used a second unordered list to display the same values but this time from JS instead of PHP.
